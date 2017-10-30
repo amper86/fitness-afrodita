@@ -1,0 +1,14 @@
+.pagination {
+    font-size: 0;
+    padding-bottom: 20px;
+}
+.pagination__title,
+.pagination__pagination-list {
+    font-size: 0;
+    display: inline-block;
+}
+.pagination__title {
+    font-family: "Open Sans Light", sans-serif;
+    font-size: 14px;
+    color: #656464;
+}

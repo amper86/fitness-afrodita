@@ -1,0 +1,78 @@
+.nav {
+    padding-top: 45px;
+}
+.nav__list {
+    list-style: none;
+}
+.nav__item {
+    margin-bottom: 27px;
+}
+.nav__link {
+    display: block;
+    font-family: "Open Sans Bold", sans-serif;
+    font-size: 12px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #f89513;
+}
+.nav__icon,
+.nav__title {
+    display: inline-block;
+    vertical-align: middle;
+}
+.nav__icon {
+    width: 19px;
+    height: 14px;
+    position: relative;
+    transition: .3s linear;
+}
+.nav__icon:after {
+    content: '';
+    display: block;
+    width: 19px;
+    height: 14px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: opacity .3s linear;
+}
+.nav__title {
+    max-width: 138px;
+    padding-left: 18px;
+    transition: .3s linear;
+}
+.nav__icon_home {
+    background: url("../../img/nav_icon/nav_sprite_icon.png") -67px -5px no-repeat;
+}
+.nav__icon_services {
+    background: url("../../img/nav_icon/nav_sprite_icon.png") -125px -5px no-repeat;
+}
+.nav__icon_comments {
+    width: 21px;
+    height: 19px;
+    background: url("../../img/nav_icon/nav_sprite_icon.png") -5px -5px no-repeat;
+}
+.nav__link:hover .nav__title{
+    color: #131415;
+}
+.nav__link_selected .nav__icon_home:after,
+.nav__link:hover .nav__icon_home:after {
+    background: #ffffff url("../../img/nav_icon/nav_sprite_icon.png") -96px -5px no-repeat;
+    opacity: 1;
+}
+.nav__link_selected .nav__icon_services:after,
+.nav__link:hover .nav__icon_services:after {
+    background: #ffffff url("../../img/nav_icon/nav_sprite_icon.png") -154px -5px no-repeat;
+    opacity: 1;
+}
+.nav__link_selected .nav__icon_comments:after,
+.nav__link:hover .nav__icon_comments:after {
+    width: 21px;
+    height: 19px;
+    background: #ffffff url("../../img/nav_icon/nav_sprite_icon.png") -36px -5px no-repeat;
+    opacity: 1;
+}
+.nav__link_selected .nav__title {
+    color: #131415;
+}

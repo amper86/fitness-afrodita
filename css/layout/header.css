@@ -1,0 +1,10 @@
+.header {
+    background-color: #131415;
+    min-height: 54px;
+}
+.header__logo {
+    float: left;
+}
+.header__contacts {
+    float: right;
+}

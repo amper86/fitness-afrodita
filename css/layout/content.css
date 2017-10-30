@@ -1,0 +1,11 @@
+.content {
+    width: 880px;
+}
+.content__title {
+    padding: 7px 0 32px 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 49px;
+}
+.content__services {
+    margin-right: 20px;
+}

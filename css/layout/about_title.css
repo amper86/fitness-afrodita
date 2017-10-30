@@ -1,0 +1,26 @@
+.about-title {
+    position: relative;
+    margin-bottom: 25px;
+    padding: 142px 66px;
+    background: url("../../img/home/about-title-bg.jpg") no-repeat center;
+    background-size: cover;
+}
+.about-title:before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, .5);
+    
+}
+.about-title__text {
+    position: relative;
+    z-index: 2;
+    color: #ffffff;
+    font-family: "Open Sans Bold", sans-serif;
+    font-size: 49px;
+    text-transform: uppercase;
+}

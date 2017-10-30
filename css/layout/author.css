@@ -1,0 +1,21 @@
+.author {
+    max-width: 250px;
+    padding: 15px 0;
+}
+.author__text {
+    font-family: "Open Sans Light", sans-serif;
+    font-size: 14px;
+    color: #ffffff;
+}
+.author__link {
+    font-family: "Open Sans Bold", sans-serif;
+    text-decoration: underline;
+    color: #ffffff;
+    transition: .3s linear;
+}
+.author__link:hover {
+    color: rgba(255,255,255,.7);
+}
+.author__name {
+    font-family: "Open Sans Bold", sans-serif;
+}

@@ -1,0 +1,13 @@
+.footer {
+    background-color: #131415;
+    min-height: 77px;
+}
+.footer__author {
+    float: left;
+}
+.footer__social {
+    float: right;
+}
+.footer__logo {
+    margin: 0 auto;
+}

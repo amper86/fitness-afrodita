@@ -1,0 +1,110 @@
+.partners {
+    width: 700px;
+    margin-bottom: 20px;
+}
+.partners__title {
+    margin-top: 52px;
+    margin-bottom: 35px;
+    font-family: "Open Sans Bold", sans-serif;
+    font-size: 49px;
+    text-transform: uppercase;
+    color: #221f1f;
+}
+.partners-list {
+    list-style: none;
+}
+.partners-list__item {
+    display: inline-block;
+    vertical-align: bottom;
+    margin-bottom: 50px;
+    width: 230px;
+}
+.partners-list__link {
+    display: block;
+    background: url('../../img/home/partners-sprite.png') no-repeat;
+    position: relative;
+    transition: .3s linear;
+}
+.partners-list__link:after {
+    content: '';
+    display: block;
+    background: #ffffff url('../../img/home/partners-sprite.png') no-repeat;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: opacity .3s linear;
+}
+.partners-list__link_flamingo {
+    width: 141px;
+    height: 63px;
+    margin-left: 10px;
+    background-position: 0 0;
+}
+.partners-list__link_flamingo:hover:after {
+    width: 141px;
+    height: 63px;
+    opacity: 1;
+    background-position: 0 -63px;
+}
+.partners-list__link_malibu {
+    width: 161px;
+    height: 29px;
+    margin: 0 auto 16px;
+    background-position: 0 -126px;
+}
+.partners-list__link_malibu:hover:after {
+    width: 161px;
+    height: 29px;
+    opacity: 1;
+    background-position: 0 -155px;
+}
+.partners-list__link_lion {
+    margin-left: 120px;
+    width: 61px;
+    height: 61px;
+    background-position: 0 -184px;
+}
+.partners-list__link_lion:hover:after {
+    width: 61px;
+    height: 61px;
+    opacity: 1;
+    background-position: 0 -246px;
+}
+.partners-list__link_arni {
+    width: 125px;
+    height: 64px;
+    margin-left: 18px;
+    background-position: 0 -308px;
+}
+.partners-list__link_arni:hover:after {
+    width: 125px;
+    height: 64px;
+    opacity: 1;
+    background-position: 0 -372px;
+}
+.partners-list__link_grif {
+    width: 161px;
+    height: 46px;
+    margin: 0 auto 10px;
+    background-position: 0 -436px;
+}
+.partners-list__link_grif:hover:after {
+    width: 161px;
+    height: 46px;
+    opacity: 1;
+    background-position: 0 -482px;
+}
+.partners-list__link_atletika {
+    margin-left: 128px;
+    width: 43px;
+    height: 63px;
+    background-position: 0 -528px;
+}
+.partners-list__link_atletika:hover:after {
+    width: 43px;
+    height: 63px;
+    opacity: 1;
+    background-position: 0 -591px;
+}
+

@@ -1,0 +1,25 @@
+.contacts {
+     width: 180px;
+     text-align: right;
+     padding-top: 10px;
+ }
+.contacts__phone-link {
+    display: block;
+    font-family: "Open Sans Bold", sans-serif;
+    color: #ffffff;
+    font-size: 21px;
+    text-decoration: none;
+}
+.contacts__working-hours {
+    display: block;
+    font-family: "Open Sans Bold", sans-serif;
+    color: #f89513;
+    font-size: 14px;
+    text-decoration: underline;
+    cursor: pointer;
+    position: relative;
+    transition: .3s linear;
+}
+.contacts__working-hours:hover {
+    color: rgba(255,255,255,.7);
+}

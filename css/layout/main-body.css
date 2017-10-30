@@ -1,0 +1,11 @@
+.main-body {
+    display: table-row;
+    height: 100%;
+    padding-top: 35px;
+}
+.main-body__aside {
+    float: left;
+}
+.main-body__content {
+    float: left;
+}

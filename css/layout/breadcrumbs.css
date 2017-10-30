@@ -1,0 +1,22 @@
+.breadcrumbs-list {
+    padding-top: 40px;
+    list-style: none;
+}
+.breadcrumbs-list__item {
+    display: inline-block;
+}
+.breadcrumbs-list__link {
+    font-family: "Open Sans LightItalic", sans-serif;
+    font-size: 14px;
+    text-decoration: none;
+    color: #f89513;
+}
+.breadcrumbs-list__link_current {
+    color: #221f1f;
+}
+.breadcrumbs-list__link_current:before {
+    content: '/ ';
+}
+.breadcrumbs-list__link:hover {
+    text-decoration: underline;
+}

@@ -1,0 +1,42 @@
+.services {
+    list-style: none;
+    font-size: 0;
+}
+.services__item {
+    display: inline-block;
+    width: 250px;
+    margin-bottom: 64px;
+    margin-right: 55px;
+    vertical-align: top;
+}
+.services__item:nth-child(3n+3) {
+    margin-right: 0;
+}
+.services__container-img {
+    text-align: center;
+    margin-bottom: 22px;
+    width: 250px;
+    height: 153px;
+}
+.services__img {
+    border-radius: 3px;
+    width: 100%;
+    height: 100%;
+}
+.services__container-signature {
+    max-width: 250px;
+    margin: 0 auto;
+}
+.services__title-signature {
+    font-family: "Open Sans Bold", sans-serif;
+    font-size: 18px;
+    vertical-align: 21px;
+    color: #221f1f;
+    padding-bottom: 7px;
+}
+.services__signature {
+    font-family: "Open Sans Light", sans-serif;
+    font-size: 14px;
+    vertical-align: 21px;
+    color: #221f1f;
+}

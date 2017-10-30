@@ -1,0 +1,37 @@
+@font-face {
+    font-family: 'Gora Free';
+    src: url('../fonts/gora-free.woff2') format('woff2'),
+    url('../fonts/gora-free.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Open Sans Bold';
+    src: url('../fonts/opensans-bold.woff2') format('woff2'),
+    url('../fonts/opensans-bold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'Open Sans Light';
+    src: url('../fonts/opensans-light.woff2') format('woff2'),
+    url('../fonts/opensans-light.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Open Sans LightItalic';
+    src: url('../fonts/opensans-lightitalic.woff2') format('woff2'),
+    url('../fonts/opensans-lightitalic.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/robotobold.woff2') format('woff2'),
+    url('../fonts/robotobold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
